@@ -39,7 +39,7 @@ const AboutSectionTwo = () => {
                 </div>
 
                 <h4 className="text-secondary mb-3 text-2xl font-bold">
-                  "STOP AND HELP"
+                  &quot;STOP AND HELP&quot;
                 </h4>
 
                 <p className="text-body-color mb-4 text-base leading-relaxed">
