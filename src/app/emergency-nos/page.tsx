@@ -18,12 +18,12 @@ export default function EmergencyNumbersPage() {
             <nav className="mt-8 flex justify-center">
               <ol className="flex items-center space-x-2 text-sm">
                 <li>
-                  <a
+                  <Link
                     href="/"
                     className="text-body-color hover:text-primary transition-colors"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <span className="text-body-color">/</span>
