@@ -70,7 +70,6 @@ const Card = ({
         fill
         className="object-cover transition-transform duration-300 group-hover:scale-110"
       />
-      <div className="bg-opacity-60 absolute inset-0 bg-black" />
     </div>
     <div className="flex flex-col bg-black p-6">
       <h3 className="text-primary mb-3 text-center text-xl font-semibold">

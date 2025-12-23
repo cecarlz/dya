@@ -96,8 +96,8 @@ const OriginPage = () => {
 
                   <p className="text-body-color mb-6 leading-relaxed">
                     The DYA (Stop and Help) is a non-profit socio-health
-                    association that has been responding since 1966 &quot;Right now
-                    we are going!&quot; to all calls for help.
+                    association that has been responding since 1966 &quot;Right
+                    now we are going!&quot; to all calls for help.
                   </p>
                   <p className="text-body-color mb-6 leading-relaxed">
                     <strong>Founded in 1966 by Juan Antonio Usparicha</strong>,
