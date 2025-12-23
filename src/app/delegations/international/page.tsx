@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Brands from "@/components/Brands";
 
 const InternationalPage = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -378,6 +379,7 @@ const InternationalPage = () => {
             </div>
           </div>
 
+          <Brands />
           <div className="mx-auto max-w-4xl">
             {filteredDelegations.map((delegation, index) => (
               <div

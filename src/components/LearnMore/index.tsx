@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const LearnMore = () => {
   return (
@@ -51,6 +52,21 @@ const LearnMore = () => {
 
 export default LearnMore;
 
+const getLink = (title: string) => {
+  switch (title) {
+    case "DYA Trainings":
+      return "/trainings";
+    case "TXIKI DYA":
+      return "/txiki-dya";
+    case "Become a Volunteer":
+      return "/volunteer";
+    case "Give us a Support":
+      return "/support";
+    default:
+      return "/";
+  }
+};
+
 const Card = ({
   title,
   image,
@@ -76,9 +92,12 @@ const Card = ({
         {title}
       </h3>
       <p className="mb-4 text-center text-sm text-white">{description}</p>
-      <button className="bg-primary mt-auto rounded px-5 py-2 text-sm font-semibold text-black transition">
+      <Link
+        href={getLink(title)}
+        className="bg-primary mt-auto block rounded px-5 py-2 text-center text-sm font-semibold text-black transition"
+      >
         Learn More
-      </button>
+      </Link>
     </div>
   </div>
 );

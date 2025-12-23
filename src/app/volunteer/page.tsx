@@ -113,7 +113,9 @@ const VolunteerPage = () => {
                     <span className="text-primary font-semibold">
                       DYA Filipinas
                     </span>{" "}
-                    and become part of a dedicated team of volunteers committed to saving lives and serving communities across the Philippines.
+                    and become part of a dedicated team of volunteers committed
+                    to saving lives and serving communities across the
+                    Philippines.
                   </p>
                 </div>
 
@@ -126,10 +128,18 @@ const VolunteerPage = () => {
                       Why Volunteer with DYA?
                     </h3>
                     <p className="text-body-color mb-4 text-base leading-relaxed">
-                      Volunteering with DYA Filipinas is more than just giving your time—it's about making a real difference in your community. As a DYA volunteer, you'll receive professional training in emergency medical services and gain valuable hands-on experience in disaster response and rescue operations.
+                      Volunteering with DYA Filipinas is more than just giving
+                      your time—it's about making a real difference in your
+                      community. As a DYA volunteer, you'll receive professional
+                      training in emergency medical services and gain valuable
+                      hands-on experience in disaster response and rescue
+                      operations.
                     </p>
                     <p className="text-body-color mb-4 text-base leading-relaxed">
-                      Our volunteers work together as a family, supporting each other while serving those in need. You'll develop leadership skills, build lasting friendships, and be part of something truly meaningful.
+                      Our volunteers work together as a family, supporting each
+                      other while serving those in need. You'll develop
+                      leadership skills, build lasting friendships, and be part
+                      of something truly meaningful.
                     </p>
                   </div>
 
@@ -152,10 +162,17 @@ const VolunteerPage = () => {
                       Requirements
                     </h3>
                     <p className="text-body-color mb-4 text-base leading-relaxed">
-                      We welcome individuals who are passionate about helping others and committed to serving their community. While prior medical experience is not required, volunteers must be willing to undergo training and commit to regular service hours.
+                      We welcome individuals who are passionate about helping
+                      others and committed to serving their community. While
+                      prior medical experience is not required, volunteers must
+                      be willing to undergo training and commit to regular
+                      service hours.
                     </p>
                     <p className="text-body-color text-base leading-relaxed">
-                      All volunteers must complete our training program and maintain active status through continued participation in operations and training activities. Contact us to learn more about how you can join the DYA family!
+                      All volunteers must complete our training program and
+                      maintain active status through continued participation in
+                      operations and training activities. Contact us to learn
+                      more about how you can join the DYA family!
                     </p>
                   </div>
                 </div>

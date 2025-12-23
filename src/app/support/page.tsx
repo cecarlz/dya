@@ -113,7 +113,9 @@ const SupportPage = () => {
                     <span className="text-primary font-semibold">
                       DYA Filipinas
                     </span>{" "}
-                    continue providing free emergency medical services and training to communities across the Philippines. Every contribution makes a difference in saving lives.
+                    continue providing free emergency medical services and
+                    training to communities across the Philippines. Every
+                    contribution makes a difference in saving lives.
                   </p>
                 </div>
 
@@ -126,10 +128,18 @@ const SupportPage = () => {
                       How Your Support Helps
                     </h3>
                     <p className="text-body-color mb-4 text-base leading-relaxed">
-                      As a non-profit organization run primarily by volunteers, DYA Filipinas relies on the generosity of donors and supporters to maintain our operations. Your contributions help us purchase medical equipment, maintain our ambulances, conduct training programs, and respond to emergencies 24/7.
+                      As a non-profit organization run primarily by volunteers,
+                      DYA Filipinas relies on the generosity of donors and
+                      supporters to maintain our operations. Your contributions
+                      help us purchase medical equipment, maintain our
+                      ambulances, conduct training programs, and respond to
+                      emergencies 24/7.
                     </p>
                     <p className="text-body-color mb-4 text-base leading-relaxed">
-                      Every peso donated goes directly toward our mission of providing free emergency medical services to indigent communities and ensuring our volunteers have the resources they need to save lives.
+                      Every peso donated goes directly toward our mission of
+                      providing free emergency medical services to indigent
+                      communities and ensuring our volunteers have the resources
+                      they need to save lives.
                     </p>
                   </div>
 
@@ -145,6 +155,45 @@ const SupportPage = () => {
                       <List text="Partner with us for corporate social responsibility" />
                       <List text="Help maintain our ambulances and facilities" />
                     </div>
+
+                    {/* Donation Card */}
+                    <div
+                      className="bg-dark/50 mt-8 rounded-lg border p-6 shadow-md"
+                      style={{ borderColor: "#b2170f", borderWidth: 1 }}
+                    >
+                      <h4 className="text-primary mb-2 text-lg font-bold">
+                        You may donate through:
+                      </h4>
+                      <div className="flex items-center gap-4">
+                        <div className="flex-shrink-0">
+                          <Image
+                            src="/images/support/bpi.svg"
+                            alt="BPI Logo"
+                            width={100}
+                            height={100}
+                            style={{ objectFit: "contain" }}
+                          />
+                        </div>
+                        <div>
+                          <div
+                            className="mb-1 text-xl font-bold"
+                            style={{ color: "#b2170f" }}
+                          >
+                            BPI:
+                          </div>
+                          <div className="text-body-color dark:text-body-color-dark mb-1 text-white">
+                            Account Name:{" "}
+                            <span className="font-medium">DYA Filipinas</span>
+                          </div>
+                          <div className="text-body-color dark:text-body-color-dark text-white">
+                            Account Number:{" "}
+                            <span className="font-medium">
+                              009253 - 0093 - 54
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="mb-8">
@@ -152,10 +201,16 @@ const SupportPage = () => {
                       Make an Impact
                     </h3>
                     <p className="text-body-color mb-4 text-base leading-relaxed">
-                      Your support enables us to continue our mission of serving communities in need. Whether through monetary donations, equipment, or partnerships, every form of support helps us expand our reach and improve our services.
+                      Your support enables us to continue our mission of serving
+                      communities in need. Whether through monetary donations,
+                      equipment, or partnerships, every form of support helps us
+                      expand our reach and improve our services.
                     </p>
                     <p className="text-body-color text-base leading-relaxed">
-                      Contact us to learn more about how you can support DYA Filipinas and help us save more lives. Together, we can make a lasting impact on emergency medical services in the Philippines.
+                      Contact us to learn more about how you can support DYA
+                      Filipinas and help us save more lives. Together, we can
+                      make a lasting impact on emergency medical services in the
+                      Philippines.
                     </p>
                   </div>
                 </div>

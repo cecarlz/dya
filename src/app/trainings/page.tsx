@@ -183,7 +183,7 @@ const TrainingsPage = () => {
               <div className="w-full px-4 lg:w-1/2">
                 <div className="relative mx-auto aspect-4/5 max-w-[570px] lg:mr-3">
                   <Image
-                    src="/images/learn-more/dya-trainings.jpg"
+                    src="/images/trainings/trainings.jpg"
                     alt="DYA Training Programs"
                     fill
                     className="drop-shadow-three mx-auto max-w-full rounded-lg object-cover lg:mr-0 dark:drop-shadow-none"

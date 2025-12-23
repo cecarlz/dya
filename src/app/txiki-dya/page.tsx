@@ -109,10 +109,19 @@ const TxikiDyaPage = () => {
                     </div>
                   </div>
                   <p className="text-body-color mb-6 text-lg leading-relaxed">
-                    <span className="text-primary font-semibold">
+                    <Link
+                      href="/txiki-dya"
+                      className="text-primary hover:text-secondary font-semibold underline transition-colors"
+                    >
                       TXIKI DYA Training
-                    </span>{" "}
-                    is a one-day program specially designed for children aged 5-12 years old, aimed at equipping them with vital life-saving skills and fostering a sense of responsibility in emergency situations. With a dynamic curriculum encompassing essential topics, this training goes beyond just playtime; it empowers our young participants to be real-life heroes!
+                    </Link>{" "}
+                    is a one-day program specially designed for children aged
+                    5-12 years old, aimed at equipping them with vital
+                    life-saving skills and fostering a sense of responsibility
+                    in emergency situations. With a dynamic curriculum
+                    encompassing essential topics, this training goes beyond
+                    just playtime; it empowers our young participants to be
+                    real-life heroes!
                   </p>
                 </div>
 
@@ -125,7 +134,12 @@ const TxikiDyaPage = () => {
                       Safety First
                     </h3>
                     <p className="text-body-color mb-4 text-base leading-relaxed">
-                      At TXIKI DYA Training, safety is our top priority. Our instructors are certified professionals with extensive experience in emergency care and child education. We create a fun and supportive environment, where children can actively participate and learn life-saving skills without feeling overwhelmed.
+                      At TXIKI DYA Training, safety is our top priority. Our
+                      instructors are certified professionals with extensive
+                      experience in emergency care and child education. We
+                      create a fun and supportive environment, where children
+                      can actively participate and learn life-saving skills
+                      without feeling overwhelmed.
                     </p>
                   </div>
 
@@ -139,15 +153,13 @@ const TxikiDyaPage = () => {
                       <List text="Teaching the kids what to do during emergencies" />
                     </div>
                   </div>
-
-
                 </div>
               </div>
 
               <div className="w-full px-4 lg:w-1/2">
                 <div className="relative mx-auto aspect-4/5 max-w-[570px] lg:mr-3">
                   <Image
-                    src="/images/learn-more/txiki-dya.jpg"
+                    src="/images/txiki-dya/txiki-dya.jpg"
                     alt="TXIKI DYA - First Aid Training for Kids"
                     fill
                     className="drop-shadow-three mx-auto max-w-full rounded-lg object-cover lg:mr-0 dark:drop-shadow-none"
